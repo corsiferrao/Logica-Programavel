@@ -1,67 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Lógica Programável by corsiferrao</title>
+    <meta name="description" content="Lógica Programável : Aula de Lógica Programável do curso de Pós Graduação em Eletrônica Embarcada - IMT">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Lógica Programável</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Lógica Programável</h1>
-        <p>Aula de Lógica Programável do curso de Pós Graduação em Eletrônica Embarcada - IMT</p>
 
-        <p class="view"><a href="https://github.com/corsiferrao/Logica-Programavel">View the Project on GitHub <small>corsiferrao/Logica-Programavel</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/corsiferrao/Logica-Programavel">View on GitHub</a>
 
+          <h1 id="project_title">Lógica Programável</h1>
+          <h2 id="project_tagline">Aula de Lógica Programável do curso de Pós Graduação em Eletrônica Embarcada - IMT</h2>
 
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/corsiferrao/Logica-Programavel/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/corsiferrao/Logica-Programavel/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <ul>
-          <li><a href="https://github.com/corsiferrao/Logica-Programavel/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/corsiferrao/Logica-Programavel/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/corsiferrao/Logica-Programavel">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="descri%C3%A7%C3%A3o" class="anchor" href="#descri%C3%A7%C3%A3o"><span class="octicon octicon-link"></span></a>Descrição</h3>
-
-<ul>
 <li>Curso: Sistemas Eletrônicos Embarcados</li>
 <li>Aula : Desenvolvimento de Aplicações usando Lógica Programáveis com FPGAs</li>
 <li>Encontros : 
 If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</li>
 </ul><h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="descri%C3%A7%C3%A3o-do-curso" class="anchor" href="#descri%C3%A7%C3%A3o-do-curso"><span class="octicon octicon-link"></span></a>Descrição do Curso</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>Fornecer noções de desenvolvimento de aplicações lógicas em ambiente FPGA. </p>
 
 <h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a name="esbo%C3%A7o-do-curso" class="anchor" href="#esbo%C3%A7o-do-curso"><span class="octicon octicon-link"></span></a>Esboço do curso</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h2>
+<a name="aula-1" class="anchor" href="#aula-1"><span class="octicon octicon-link"></span></a>Aula 1</h2>
 
-<h3>
-<a name="ajuda-e-contato" class="anchor" href="#ajuda-e-contato"><span class="octicon octicon-link"></span></a>Ajuda e contato</h3>
+<ul>
+<li>Conhecimento da topologia interna da FPGA;</li>
+<li>  discernimento das diferenças entre Dispositivos Lógicos Programáveis e Microcontroladores;</li>
+<li>  aplicações potências para uso de FPGA;</li>
+<li>  linguagens de descrição de hardware (Vhdl/ Verilog);</li>
+<li>  workflow FPGA;</li>
+<li>  apresentar o kit de desenvolvimento</li>
+<li>  demonstração do workflow (com simulação)<br>
+</li>
+</ul><h2>
+<a name="aula-2" class="anchor" href="#aula-2"><span class="octicon octicon-link"></span></a>Aula 2</h2>
 
-<p>Precisa de ajuda ? Entre em contato : <a href="mailto:rafael.corsi@maua.br">rafael.corsi@maua.br</a> ou <a href="mailto:corsiferrao@gmail.com">corsiferrao@gmail.com</a></p>
+<ul>
+<li>  Introdução VHDL - Logica combinacional (paralelo);</li>
+<li>  tipos de dados (ieee) e conversões;</li>
+<li>  sinal</li>
+<li>  exemplo usando logica combinacional:</li>
+<li>      * workflow</li>
+<li>*         testbench e constrains já definidos</li>
+<li>*         Led + Chaves ?</li>
+<li>  vetores (ordenação); </li>
+<li>  palavras reservadas;</li>
+<li>  Exemplo usando vetores: </li>
+<li>*         Detector de paridade / gerador de paridade</li>
+<li><br></li>
+</ul><h2>
+<a name="aula-3" class="anchor" href="#aula-3"><span class="octicon octicon-link"></span></a>Aula 3</h2>
+
+<ul>
+<li>  VHDL sequencial;</li>
+<li>  process</li>
+<li>      * com e sem sensibilidade</li>
+<li>*         estado $t^{+}$<br>
+</li>
+<li>  variável</li>
+<li>  exemplo de construção :</li>
+<li>      registradores;</li>
+<li>      contador -&gt; constante e generic</li>
+<li>  maquina de estados</li>
+<li>  componentes
+**      criação e inic* ialização</li>
+</ul><h2>
+<a name="aula-4" class="anchor" href="#aula-4"><span class="octicon octicon-link"></span></a>Aula 4</h2>
+
+<ul>
+<li>  memorias
+**      RAM
+**      ROM (inicialização)</li>
+<li>  testbench</li>
+<li>  exemplo de projeto
+**      testbench
+**      implementar</li>
+<li>  funções e procedures</li>
+</ul><h2>
+<a name="aula-5" class="anchor" href="#aula-5"><span class="octicon octicon-link"></span></a>Aula 5</h2>
+
+<ul>
+<li>  constrains </li>
+<li>  time analyses</li>
+<li>  exemplo de projeto completo
+**      qual exemplo ? usar megawizard</li>
+<li>  Packages</li>
+<li>  IP cores</li>
+<li>  exemplo OpenCore</li>
+</ul><h2>
+<a name="aula-6" class="anchor" href="#aula-6"><span class="octicon octicon-link"></span></a>Aula 6</h2>
+
+<ul>
+<li>Processador MicroBlazer</li>
+</ul><h2>
+<a name="aula-7" class="anchor" href="#aula-7"><span class="octicon octicon-link"></span></a>Aula 7</h2>
+
+<ul>
+<li>Processador MicroBlazer</li>
+</ul>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/corsiferrao">corsiferrao</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Lógica Programável maintained by <a href="https://github.com/corsiferrao">corsiferrao</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
