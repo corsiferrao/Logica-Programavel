@@ -1,0 +1,20 @@
+# Output products list for <hb_fir>
+demo_tb\tb_hb_fir.vhd
+hb_fir.asy
+hb_fir.gise
+hb_fir.mif
+hb_fir.ngc
+hb_fir.sym
+hb_fir.vhd
+hb_fir.vho
+hb_fir.xco
+hb_fir.xise
+hb_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_lin.zip
+hb_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_lin64.zip
+hb_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_nt.zip
+hb_fir\cmodel\fir_compiler_v6_3_bitacc_cmodel_nt64.zip
+hb_fir\doc\ds795_fir_compiler.pdf
+hb_fir\doc\fir_compiler_v6_3_readme.txt
+hb_fir\doc\fir_compiler_v6_3_vinfo.html
+hb_fir_flist.txt
+hb_fir_xmdf.tcl

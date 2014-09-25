@@ -1,0 +1,4 @@
+vhdl xil_defaultlib "/home/rafa/Dropbox/Aulas/Pos/2014/LogicaProgramavel/05-Concorrente/project_1/project_1.srcs/sources_1/somador.vhd"
+vhdl xil_defaultlib "/home/rafa/Dropbox/Aulas/Pos/2014/LogicaProgramavel/05-Concorrente/project_1/project_1.srcs/sim_1/new/tb_somador.vhd"
+verilog xil_defaultlib "/home/rafa/opt/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v"
+nosort

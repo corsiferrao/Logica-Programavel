@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 1113: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 1117: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 3499: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 3516: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 360: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 361: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 364: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 365: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 369: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 370: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 374: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 375: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 376: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 452: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 470: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 472: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 485: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 492: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 824: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 825: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 826: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 827: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 828: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 879: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 881: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 883: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 885: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 887: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 896: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 959: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 960: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 961: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1354: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1433: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1434: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1439: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1440: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1441: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1442: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1443: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1467: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1652: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 2072: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1334: Assignment to <arg fmt="%s" index="1">base_en_cntrl</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 2518: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 1294: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 2961: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 3970: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 3970: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 3987: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\global_pkg.vhd" Line 3987: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\mem.vhd" Line 122: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\mem.vhd" Line 125: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\mem.vhd" Line 138: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\mem.vhd" Line 138: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\mem.vhd" Line 140: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\mem.vhd" Line 140: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3220: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3306: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\buff.vhd" Line 86: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\calc.vhd" Line 123: Net &lt;<arg fmt="%s" index="1">gen_virtex.ac_in[29]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\calc.vhd" Line 126: Net &lt;<arg fmt="%s" index="1">gen_virtex.bc_in[17]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3952: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3955: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3964: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3986: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 4104: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 4203: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 4203: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 4204: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 4204: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 418: Net &lt;<arg fmt="%s" index="1">chanpat_updated</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 419: Net &lt;<arg fmt="%s" index="1">next_flush_mem</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 420: Net &lt;<arg fmt="%s" index="1">next_flush_buffx2</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 421: Net &lt;<arg fmt="%s" index="1">last_in</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 427: Net &lt;<arg fmt="%s" index="1">data_valid_src</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 443: Net &lt;<arg fmt="%s" index="1">sclr_end</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 481: Net &lt;<arg fmt="%s" index="1">chan_out_max</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 834: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.address[1][6]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 844: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.cntrl[1][0]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 901: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.cntrl_blank_mem</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 903: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.next_flush_buff</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 1340: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.i_cntrl.v_chan_max</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 2901: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.g_paths[0].mem_if_addr[2][0][2]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 2913: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.g_paths[0].mem_if_datain[3][0][21]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 2917: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.g_paths[0].mem_if_we[2][0]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\fir_compiler_v6_3\halfband_decimation.vhd" Line 3018: Net &lt;<arg fmt="%s" index="1">g_semi_parallel_and_smac.g_paths[0].p_casc[0]_casc[52]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_data_tuser</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_config_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_reload_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_data_tlast</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_data_tlast_missing</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_data_tlast_unexpected</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_data_chanid_incorrect</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_config_tlast_missing</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_config_tlast_unexpected</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_reload_tlast_missing</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\user\Documents\_Work\ISE_Projects\PDM_Filter\PDM_Filter_RefComp\ipcore_dir_hb\tmp\_cg\_dbg\hb_fir.vhd</arg>&quot; line <arg fmt="%s" index="2">172</arg>: Output port &lt;<arg fmt="%s" index="3">event_s_reload_tlast_unexpected</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
