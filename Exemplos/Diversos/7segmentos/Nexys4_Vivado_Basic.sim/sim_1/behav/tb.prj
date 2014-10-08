@@ -1,0 +1,5 @@
+vhdl xil_defaultlib "/home/rafa/Dropbox/Aulas/Pos/2014/Logica-Programavel/Exemplos/Diversos/7segmentos/Nexys4_Vivado_Basic.srcs/sources_1/new/controlador_7s.vhd"
+vhdl xil_defaultlib "/home/rafa/Dropbox/Aulas/Pos/2014/Logica-Programavel/Exemplos/Diversos/7segmentos/Nexys4_Vivado_Basic.srcs/sources_1/new/toplevel.vhd"
+vhdl xil_defaultlib "/home/rafa/Dropbox/Aulas/Pos/2014/Logica-Programavel/Exemplos/Diversos/7segmentos/Nexys4_Vivado_Basic.srcs/sim_1/new/tb.vhd"
+verilog xil_defaultlib "/home/rafa/opt/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v"
+nosort
