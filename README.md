@@ -46,51 +46,47 @@ O repositório (privado) da disciplina é : http://corsiferrao.github.io/Logica-
 
  *   https://docs.google.com/spreadsheets/d/19uO4bsoqHaaS-s8bUku7I7dthyveukAMT_0HsnTpTKU/edit?usp=sharing
 
-### Pesquisa
+## Aula 2
 
- O arquivo "01-FPGA-Introdução - Problemas.pdf" possui propostas de pesquisas 
+### Problemas
+
+Terminar os problemas (05-VHDL-Concorrente-Problemas.pdf) inicializados em sala que abordam:
+
+* Criar uma entidade
+* trabalhar com lógicas booleanas
+* tipos de dados e conversões
+* lógica concorrente
+
+Os arquivos fontes gerados durante essas atividades deverão ser salvos em um repositório no github, o caminho para o repositório deve ser informado na tabela :
+
+* https://docs.google.com/spreadsheets/d/19uO4bsoqHaaS-s8bUku7I7dthyveukAMT_0HsnTpTKU/edit?usp=sharing
+
 
 # Esboço do curso
 
-## Aula 1
-* Conhecimento da topologia interna da FPGA;
-* 	discernimento das diferenças entre Dispositivos Lógicos Programáveis e Microcontroladores;
-* 	aplicações potências para uso de FPGA;
-* 	linguagens de descrição de hardware (Vhdl/ Verilog);
-* 	workflow FPGA;
-* 	apresentar o kit de desenvolvimento
-* 	demonstração do workflow (com simulação)	
+## Aula 1 - 2/10/2014
+* Conhecimento da topologia interna da FPGA
+* discernimento das diferenças entre Dispositivos Lógicos Programáveis e Microcontroladores
+* aplicações potências para uso de FPGA
+* linguagens de descrição de hardware (Vhdl/ Verilog);
+* workflow FPGA;
+* apresentar o kit de desenvolvimento
+* demonstração do workflow (com simulação)	
 
-## Aula 2
-* 	Introdução VHDL - Logica combinacional (paralelo);
-* 	tipos de dados (ieee) e conversões;
-* 	sinal
-* 	exemplo usando logica combinacional:
-* 		 workflow
-*  		testbench e constrains já definidos
-*  		Led + Chaves ?
-* 	vetores (ordenação); 
-* 	palavras reservadas;
-* 	Exemplo usando vetores: 
-*  		Detector de paridade / gerador de paridade
-* 	
-	
+## Aula 2 - 8/10/2014
+* Introdução VHDL - Logica combinacional (paralelo);
+* tipos de dados (ieee) e conversões;
+* sinais e constantes 
 
-##Aula 3
-* 	VHDL sequencial;
-* 	process
-* 		 com e sem sensibilidade
-*  		estado $t^{+}$ 	
-* 	variável
-* 	exemplo de construção :
-* 		registradores;
-* 		contador -> constante e generic
-* 	maquina de estados
-* 	componentes
-** 		criação e inicialização
+##Aula 3 - 13/10/2014
+* lógica sequencial;
+* estado $t^{+}$ 	
+* variáveis
+* process com clock 
 	
 ## Aula 4
-* Projeto 
+* máquina de estado
+* projeto 
 
 ## Aula 5 
 * 	memorias

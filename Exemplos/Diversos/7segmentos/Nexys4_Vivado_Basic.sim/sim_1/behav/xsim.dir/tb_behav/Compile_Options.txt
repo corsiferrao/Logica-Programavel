@@ -1,1 +1,0 @@
---debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "tb_behav" --prj "/home/rafa/Dropbox/Aulas/Pos/2014/Logica-Programavel/Exemplos/Diversos/7segmentos/Nexys4_Vivado_Basic.sim/sim_1/behav/tb.prj" "xil_defaultlib.tb" 
