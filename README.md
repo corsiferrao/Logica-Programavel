@@ -82,7 +82,7 @@ Os arquivos fontes gerados durante essas atividades deverão ser salvos em um re
 * lógica sequencial;
 * estado $t^{+}$ 	
 * variáveis
-* process com clock 
+* lógica síncrona
 	
 ## Aula 4
 * máquina de estado
