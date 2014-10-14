@@ -70,7 +70,7 @@ BEGIN
     -- a partir do endereço (addr) a saída (dout) recebe uma das entradas (inx)
     ----------------
         dout  <=  in0 WHEN addr = "00" ELSE
-                  in1 WHEN addr = "00" ELSE
+                  in1 WHEN addr = "01" ELSE
                   in2;              
 END bhv;
 -------------------------------------------------------------------------------
