@@ -17,6 +17,8 @@ Fornecer noções de desenvolvimento de aplicações lógicas em ambiente FPGA v
 
 * O SW para desenvolvimento (EDA) é o [Xilinx Vivado](http://www.xilinx.com/products/design-tools/vivado/) que possui uma versão gratuita chamada de WebPACK.
 
+* FPGA : xc7a100tcsg324-1 
+
 ## Bibliografia 
 
 * (2012) Vhdl - Descrição e Síntese de Circuitos Digitais - 2ª Ed. - Roberto D´amore
