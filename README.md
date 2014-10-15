@@ -32,7 +32,7 @@ Fornecer noções de desenvolvimento de aplicações lógicas em ambiente FPGA v
 
 # Projetos/ Trabalhos
 
-## Aula 1
+## Aula 1 - 01/10
 
 ### GIT
 
@@ -46,7 +46,7 @@ O repositório (privado) da disciplina é : http://corsiferrao.github.io/Logica-
 
  *   https://docs.google.com/spreadsheets/d/19uO4bsoqHaaS-s8bUku7I7dthyveukAMT_0HsnTpTKU/edit?usp=sharing
 
-## Aula 2
+## Aula 2 - 08/10
 
 ### Problemas
 
@@ -61,11 +61,25 @@ Os arquivos fontes gerados durante essas atividades deverão ser salvos em um re
 
 * https://docs.google.com/spreadsheets/d/19uO4bsoqHaaS-s8bUku7I7dthyveukAMT_0HsnTpTKU/edit?usp=sharing
 
+## Aula 3 - 13/10 
+
+### Problemas
+
+Desenvolver os problemas propostos em (07-06-VHDL-Sequencial-Problemas)  que abordam:
+
+* lógica sequêncial
+* contador
+
+## Aula 4 - 15/10 
+
+### Projeto 01 - Displays de 7 segementos
+
+Projetar uma lógica digital capaz de acionar "simultâneamente" os oito  displays de sete segmentos da placa de desenvolvimento Nexys4, mostrando em cada display um valor diferente. Esse projeto faz parte da composição da nota.
 
 # Esboço do curso
 
-## Aula 1 - 2/10/2014
-* Conhecimento da topologia interna da FPGA
+## Aula 1 - 2/10
+* conhecimento da topologia interna da FPGA
 * discernimento das diferenças entre Dispositivos Lógicos Programáveis e Microcontroladores
 * aplicações potências para uso de FPGA
 * linguagens de descrição de hardware (Vhdl/ Verilog);
@@ -73,22 +87,22 @@ Os arquivos fontes gerados durante essas atividades deverão ser salvos em um re
 * apresentar o kit de desenvolvimento
 * demonstração do workflow (com simulação)	
 
-## Aula 2 - 8/10/2014
-* Introdução VHDL - Logica combinacional (paralelo);
+## Aula 2 - 8/10
+* introdução VHDL - Logica combinacional (paralelo);
 * tipos de dados (ieee) e conversões;
 * sinais e constantes 
 
-##Aula 3 - 13/10/2014
+##Aula 3 - 13/10
 * lógica sequencial;
 * estado $t^{+}$ 	
 * variáveis
 * lógica síncrona
 	
-## Aula 4
-* máquina de estado
-* projeto 
+## Aula 4 - 15/10
+* projeto 01 - Displays de 7 segmentos
 
 ## Aula 5 
+* state machine
 * 	memorias
 * 		RAM
 * 		ROM (inicialização)
