@@ -1,4 +1,4 @@
-Logica-Programavel
+Logica-Programável
 ==================
 
 * Curso: Sistemas Eletrônicos Embarcados
@@ -78,6 +78,8 @@ Desenvolver os problemas propostos em (07-06-VHDL-Sequencial-Problemas)  que abo
 
 Projetar uma lógica digital capaz de acionar "simultâneamente" os oito  displays de sete segmentos da placa de desenvolvimento Nexys4, mostrando em cada display um valor diferente. Esse projeto faz parte da composição da nota.
 
+* entrega dia 22/10
+
 # Esboço do curso
 
 ## Aula 1 - 2/10
@@ -96,33 +98,28 @@ Projetar uma lógica digital capaz de acionar "simultâneamente" os oito  displa
 
 ##Aula 3 - 13/10
 * lógica sequencial;
-* estado $t^{+}$ 	
+* estado $t^{+}$ 
 * variáveis
 * lógica síncrona
 	
 ## Aula 4 - 15/10
 * projeto 01 - Displays de 7 segmentos
 
-## Aula 5 
+## Aula 5 - 22/10
+* mapeamento de entidades
+* top level 
+* simulação - testbench
+* memorias
+*  RAM
+*  ROM (inicialização)
+* IP Core
+
+## Aula 6 - 05/11
 * state machine
-* 	memorias
-* 		RAM
-* 		ROM (inicialização)
-* 	testbench
-* 	exemplo de projeto
-* 		testbench
-* 		implementar
-* 	funções e procedures
+* funções e procedures
+* constrains 
+* time analyses
 
-## Aula 6
-* 	constrains 
-* 	time analyses
-* 	exemplo de projeto completo
-* 		qual exemplo ? usar megawizard
-* 	Packages
-* 	IP cores
-* 	exemplo OpenCore
-
-## Aula 7
+## Aula 7 - 12/11
 * Processador MicroBlazer
 
