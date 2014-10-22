@@ -59,6 +59,7 @@ begin
 process
 begin
 
+wait;
 end process;
 
 --------------------------
@@ -67,6 +68,7 @@ end process;
 process
 begin
 
+wait;
 end process;
 
 
