@@ -10,10 +10,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity tb_catraca is
-end tb_catraca;
+entity tb_toplevel is
+end tb_toplevel;
 
-architecture Behavioral of tb_catraca is
+architecture Behavioral of tb_toplevel is
 
 component toplevel is
     port (
@@ -24,12 +24,13 @@ component toplevel is
             led   : out std_logic_vector(7 downto 0));
  end component;
 
-    signal clk, rst, botao, led : std_logic := '0';
+    signal clk, rst, botao : std_logic := '0';
+    signal led : std_logic_vector(7 downto 0);
 
 begin
 
- u1 : catraca
-    port map (clk, rst, moeda, giro, pistao, led );
+ u1 : toplevel
+    port map (clk, rst, botao, led );
 
  process
  begin
