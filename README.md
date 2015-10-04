@@ -1,6 +1,6 @@
 Logica-Programável
 ==================
-
+* Instituto Mauá de Tecnologia - www.maua.br 
 * Curso: Sistemas Eletrônicos Embarcados
 * Aula : Desenvolvimento de Aplicações usando Lógica Programáveis com FPGAs
 * Professor : Rafael Corsi - rafael.corsi@maua.br
