@@ -4,7 +4,7 @@ Logica-Programável
 * Curso: Sistemas Eletrônicos Embarcados
 * Aula : Desenvolvimento de Aplicações usando Lógica Programáveis com FPGAs
 * Professor : Rafael Corsi - rafael.corsi@maua.br
-* Encontros : Quarta-Feira 19h - 22h30 
+* Encontros : Segundas 19h - 7h00 
 * Sala : J309
 
 # Descrição do Curso
@@ -15,9 +15,9 @@ Fornecer noções de desenvolvimento de aplicações lógicas em ambiente FPGA v
 
 * A placa a ser utilizada no curso é a [Nexys 4](http://www.digilentinc.com/Products/Detail.cfm?Prod=NEXYS4) :  que possui uma FPGA Artix-7 
 
-* O SW para desenvolvimento (EDA) é o [Xilinx Vivado](http://www.xilinx.com/products/design-tools/vivado/) que possui uma versão gratuita chamada de WebPACK.
+ * FPGA : xc7a100tcsg324-1 
 
-* FPGA : xc7a100tcsg324-1 
+* O SW para desenvolvimento (EDA) é o [Xilinx Vivado](http://www.xilinx.com/products/design-tools/vivado/) que possui uma versão gratuita chamada de WebPACK.
 
 ## Bibliografia 
 
@@ -88,8 +88,8 @@ Projetar uma lógica digital capaz de acionar "simultâneamente" os oito  displa
 * aplicações potências para uso de FPGA
 * linguagens de descrição de hardware (Vhdl/ Verilog);
 * workflow FPGA;
-* apresentar o kit de desenvolvimento
-* demonstração do workflow (com simulação)	
+* apresentação do kit de desenvolvimento
+* demonstração do workflow (com gravação na FPGA)
 
 ## Aula 2 - 8/10
 * introdução VHDL - Logica combinacional (paralelo);
@@ -121,5 +121,4 @@ Projetar uma lógica digital capaz de acionar "simultâneamente" os oito  displa
 * time analyses
 
 ## Aula 7 - 12/11
-* Processador MicroBlazer
-
+* Soft Processor - MicroBrazer
