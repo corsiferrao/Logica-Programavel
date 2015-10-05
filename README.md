@@ -34,19 +34,20 @@ Fornecer noções de desenvolvimento de aplicações lógicas em ambiente FPGA v
 
 # Projetos/ Trabalhos
 
-## Aula 1 - 01/10
-
-### GIT
-
 Devem criar uma conta no github: www.github.com, essa será a forma de envio dos trabalhos. Segue alguns tutoriais sobre git para quem não tem afinidade com a ferramenta:
 
  *   http://rogerdudler.github.io/git-guide/index.pt_BR.html
  *   http://git-scm.com/docs/gittutorial
  *   https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
-O repositório (privado) da disciplina é : http://corsiferrao.github.io/Logica-Programavel/ porém para terem acesso aos arquivos é preciso que eu cadastre vocês, portanto, assim que tiverem uma conta no github atualizem a seguinte tabela no gdocs para que eu adicione no sistema:
+ Assim que tiverem uma conta no github atualizem a seguinte tabela no gdocs para que eu tenha acesso:
+ 
+ * https://docs.google.com/spreadsheets/d/1pE2sUUtvX-qZ0zgvkEt2eh5iSvwChhCeAMc271wraOI/edit?usp=sharing
 
- *   https://docs.google.com/spreadsheets/d/19uO4bsoqHaaS-s8bUku7I7dthyveukAMT_0HsnTpTKU/edit?usp=sharing
+## Aula 1 - 01/10
+
+Pesquisa tópicos relacionados a FPGA
+
 
 ## Aula 2 - 08/10
 
