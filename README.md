@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Logica-Programável
 ==================
 * Instituto Mauá de Tecnologia - www.maua.br 
@@ -7,6 +6,8 @@ Logica-Programável
 * Professor : Rafael Corsi - rafael.corsi@maua.br
 * Encontros : Segundas 19h - 7h00 
 * Sala : J309
+
+Licença : GNU General Public License v2.0
 
 # Descrição do Curso
 
@@ -125,3 +126,16 @@ Projetar uma lógica digital capaz de acionar "simultâneamente" os oito  displa
 ## Aula 7 - 12/11
 * Soft Processor - MicroBrazer
 
+## Licença
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
