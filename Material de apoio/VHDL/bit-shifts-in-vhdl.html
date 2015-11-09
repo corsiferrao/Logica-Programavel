@@ -1,0 +1,216 @@
+<html>
+<link rel="Home" href="../" title="JdeBP's WWW site" />
+<link rel="Top" href="./" title="FGAs" />
+<link rel="Up" href="./#GeneralProgramming" title="General programming" />
+<link rel="Prev" href="dont-set-shared-file-descriptors-to-non-blocking-mode.html" title="Don't set shared file descriptors to non-blocking I/O mode." />
+<link rel="Next" href="detecting-x86-virtual-machines.html" title="How one detects x86 virtual machines." />
+<link rel="Mirror" href="http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/bit-shifts-in-vhdl.html" title="NTLWorld" />
+<link rel="Mirror" href="http://homepages.tesco.net./~J.deBoynePollard/FGA/bit-shifts-in-vhdl.html"	title="Tesco" />
+<link rel="Stylesheet" type="text/css" href="fga.css" title="Frequently Given Answers default style" />
+<title>FGA: Arithmetic and logical shifts and rotates are done with
+functions in VHDL, not operators.</title>
+<h1>Arithmetic and logical shifts and rotates are done with functions in
+VHDL, not operators.</h1>
+
+<p>
+You've come to this page because you've asked about shift operators in VHDL.
+</p>
+
+<p>
+Arithmetic and logical shifts and rotates are done with functions in VHDL,
+not operators.  The functions are part of the
+<code>ieee.numeric_std</code> and <code>ieee.numeric_bit</code> packages,
+and are named <code>shift_left()</code>, <code>shift_right()</code>,
+<code>rotate_left()</code>, and <code>rotate_right()</code>.  The
+difference between arithmetic and logical shifts is encoded in the type of
+the first argument to the function.  The function is overloaded according
+to this type, with different overloads performing different operations.
+So, for example:  If you want to do an arithmetic right shift of a
+<code>std_logic_vector</code> (from <code>numeric_std</code>), convert
+your signal to a <code>signed</code> and pass it to
+<code>shift_right()</code>.  But if you want to do a logical right shift,
+convert your signal to an <code>unsigned</code> and pass it to
+<code>shift_right()</code>.
+</p>
+
+<p>
+These are the way to do shifts and rotates in VHDL.  Don't try to use
+operators.
+</p>
+
+<p>
+The problem with the operators &mdash;
+<code>sll</code>,
+<code>sla</code>,
+<code>srl</code>,
+<code>sra</code>,
+<code>rol</code>, and
+<code>rar</code>,
+&mdash; is that they were an afterthought, weren't specified correctly, and
+have been removed from IEEE 1076.
+</p>
+
+<p>
+What happened is that the standards Working Group originally specified
+only functions for shifts and rotates.  They created the four functions in
+both the <code>ieee.numeric_std</code> and <code>ieee.numeric_bit</code>
+packages.  Then during the standards approval balloting process, someone
+suggested that the infix operators be defined to operate the same as the
+relevant function, and this suggestion was acted upon.  So the standard
+gained overloads for the four operators
+<code>sll</code>,
+<code>srl</code>,
+<code>rol</code>, and
+<code>rar</code>,
+in the two packages that were supposed to be equivalent to the four
+functions
+<code>shift_left()</code>,
+<code>shift_right()</code>,
+<code>rotate_left()</code>, and
+<code>rotate_right()</code>
+in those packages.
+</p>
+
+<p>
+The problem was that the operators weren't defined correctly.  First:
+There were outright editorial errors in the standards document itself.
+The descriptions of the operators for <code>ieee.numeric_bit</code>
+erroneously described the operators as predefined in VHDL.  Second:  The
+definitions of the operators didn't match the definitions of the original
+functions.  In particular, the operators were given defined semantics for
+the case where the second operand was negative.  (The type of the second
+arguments to the functions is <code>NATURAL</code>, which cannot be
+negative.)  Third:  The consequences of extending the semantics, and of
+choosing this particular mapping from operators to functions, weren't
+thought through.
+</p>
+
+<p>
+VHDL is an unusual language, in that it contains the notion of an
+arithmetic <em>left</em> shift.  In most languages, there is no such
+thing, arithmetic and logical left shifts being considered to be
+identical.  In VHDL, however, arithmetic left shift is the mirror image of
+arithmetic right shift:  bits are shifted to the left and value of the
+original rightmost bit is shifted in at the right (i.e. that bit retains
+its value).  In this regard, VHDL is completely orthogonal, having both
+arithmetic and logical shifts and rotates in both directions, with the
+left shifts and rotates being mirror images of the right shifts and
+rotates.
+</p>
+
+<p>
+The <code>shift_left()</code> function, overloaded for
+<code>signed</code>, performs arithmetic left shifts.  There is no problem
+with this.  The problem lies with the subsequent additions of overloads
+for the <code>sll</code> and <code>srl</code> operators, how they work
+with negative shift counts, and how they work with signed shiftends.
+</p>
+
+<p>
+Whilst the original functions didn't accept negative shifts, the newly
+added overloaded operators did.  The semantics of this were defined in
+what people thought to be the "obvious" way:  a shift/rotate by a negative
+amount <code>-N</code> was defined to be the same type of shift/rotate in
+the opposite direction, by <code>+N</code>.  Unfortunately, the
+consequences of this weren't thought through.
+</p>
+
+<div class="sidebar" style="clear:right;">
+<p>
+<pre>
+signal a, o : signed (7 downto 0) ;
+signal n : unsigned (2 downto 0) ;
+&hellip;
+-- VHDL nutcasery: This is an arithmetic shift
+-- even though it uses "srl", not "sra".
+o &lt;= a srl to_integer(n) ;
+</pre>
+</p>
+</div>
+<p>
+Worse, the <em>logical</em> shift infix operators actually perform
+<em>arithmetic</em> shifts.  <code>sll</code> and <code>srl</code> map
+onto <code>shift_left()</code> and <code>shift_right()</code>, and no
+overloads for the <code>sla</code> and <code>sra</code> operators are
+provided.  But the <em>functions</em> switch between arithmetic and
+logical shifting according to the types of the first operand.  This means
+that so do the <code>sll</code> and <code>srl</code> operators, even
+though lexically the "l" in the names of the operators stands for
+"logical".
+</p>
+
+<div class="sidebar" style="clear:right;">
+<p>
+<pre>
+signal a, o : unsigned (7 downto 0) ;
+signal n : unsigned (2 downto 0) ;
+&hellip;
+-- VHDL nutcasery: This synthesizes to a
+-- bidirectional shifter, even though only a
+-- unidirectional shifter is actually wanted.
+o &lt;= a srl to_integer(n) ;
+</pre>
+</p>
+</div>
+<p>
+One consequence that wasn't thought through is that using these operators
+results in hardware that is bigger than what hardware designers actually
+want.  A non-constant arithmetic shifter, inferred by a synthesis tool
+from an <code>sll</code> or <code>srl</code> operator, has, in order to be
+<em>correct</em>, to incorporate hardware that checks the sign of the
+shift count, and switches directions accordingly, negating the count as
+appropriate.  Clearly, this is excessive hardware when one simply wants to
+synthesize a simple unidirectional barrel shifter.  But designing in VHDL
+using the shift and rotate operators doesn't allow a hardware designer to
+choose <em>not</em> to incorporate such hardware.  To be functionally
+correct, what is synthesized for such operators has to include the extra
+logic for bidirectionality.
+</p>
+
+<p>
+Another consequence is that this definition of the operators results in
+the somewhat ludicrous situation that the location of the sign bit in
+one's data words is dependent from whether one is arithmetic shifting by a
+positive or a negative amount.  An arithmetic left shift by a negative
+amount, <code>A sll -B</code>, is defined as being an arithmetic right
+shift by a positive amount, <code>A srl B</code>.  For an arithmetic left
+shift by a positive amount the sign bit is the leftmost bit.  But for an
+arithmetic right shift by a positive amount the sign bit is the rightmost
+bit; hence an arithmetic shift left by a negative amount the sign bit is
+also the rightmost bit.  Thus changing the sign of the shift count
+<em>also</em> changes which bit of the shiftend is treated as the sign
+bit.  Clearly, this is hardly ever useful.
+</p>
+
+<p>
+A third consequence is that this is simply not what hardware designers
+expect.  A hardware designer who na&iuml;vely thinks that "srl" and "sra"
+stand for "shift right logical" and "shift right arithmetic" will be
+surprised to find that (a) the "srl" operator does arithmetic shifts under
+some circumstances, and (b) the "sra" operator isn't even defined <em>at
+all</em> for <code>ieee.numeric_std</code> types.
+</p>
+
+<p>
+Eventually, these problems were recognized, and the overloads for the shift
+operators were removed from the <code>ieee.numeric_std</code> and
+<code>ieee.numeric_bit</code> packages.  So even if your VHDL synthesis or
+simulaton tool supports these operators, don't use them.  Use the functions.
+They were the original idea.  They don't have all of these problems and
+unexpected pitfalls and consequences.  They just work.
+</p>
+
+<hr>
+<link rel="Author" href="../author.html" />
+<link rel="Copyright" href="copyright.html" />
+<font size=-2>
+&copy; <a href="copyright.html">Copyright</a> 2008
+<a href="../author.html">Jonathan de Boyne Pollard</a>.
+"Moral" rights asserted.
+<br>
+Permission is hereby granted to copy and to distribute this web page in its
+original, unmodified form as long as its last modification datestamp is
+preserved.
+</font>
+
+</html>
