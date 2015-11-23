@@ -1,0 +1,103 @@
+16:26:06 INFO  : Launching XSDB server: xsdb -n /home/Dados/opt/Xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+16:26:12 INFO  : XSDB server has started successfully.
+16:26:13 INFO  : Processing command line option -hwspec /home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/uc_GPIO_wrapper.hdf.
+14:51:31 INFO  : Launching XSDB server: xsdb -n /home/Dados/opt/Xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+14:51:34 INFO  : XSDB server has started successfully.
+14:51:34 INFO  : Processing command line option -hwspec /home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel.hdf.
+14:52:33 ERROR : Failed to call get_cpu_nr
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+14:52:50 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: MicroBlaze Version UNKNOWN. The MicroBlaze Config String is NOT Valid
+    Verify if FPGA is Configured and DONE pin went High
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:423)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:03:10 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: MicroBlaze Version UNKNOWN. The MicroBlaze Config String is NOT Valid
+    Verify if FPGA is Configured and DONE pin went High
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:423)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:18:53 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:19:10 INFO  : Launching XSDB server: xsdb -n /home/Dados/opt/Xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+16:19:11 INFO  : XSDB server has started successfully.
+16:19:13 INFO  : Processing command line option -hwspec /home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel.hdf.
+16:19:15 INFO  : Checking for hwspec changes in the project toplevel_hw_platform_0.
+16:20:34 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: MicroBlaze Version UNKNOWN. The MicroBlaze Config String is NOT Valid
+    Verify if FPGA is Configured and DONE pin went High
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:423)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:20:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: MicroBlaze Version UNKNOWN. The MicroBlaze Config String is NOT Valid
+    Verify if FPGA is Configured and DONE pin went High
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:423)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:22:34 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:35:27 INFO  : Launching XSDB server: xsdb -n /home/Dados/opt/Xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+16:35:28 INFO  : XSDB server has started successfully.
+16:35:29 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:30 ERROR : Failed to call init_repo
+Reason: invalid command name "::hsi::utils::init_repo"
+16:35:31 ERROR : Exception rasied in executing the command =Failed to call init_repo
+Reason: invalid command name "::hsi::utils::init_repo" 
+16:35:31 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/uc_GPIO_wrapper_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:34 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/uc_GPIO_wrapper_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:36 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:41 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:46 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:47 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:50 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:51 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:35:56 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:36:01 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:36:07 ERROR : Failed to openhw "/home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.sdk/toplevel_hw_platform_0/system.hdf"
+Reason: invalid command name "::hsi::utils::openhw"
+16:36:12 INFO  : Launching XSDB server: xsdb -n /home/Dados/opt/Xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl

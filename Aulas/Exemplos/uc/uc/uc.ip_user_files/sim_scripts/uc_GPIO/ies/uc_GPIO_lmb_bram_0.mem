@@ -1,0 +1,15 @@
+// Mem file initialization records.
+//
+// Release 2013.2 -  HEAD, build April 01, 2013
+// Copyright (c) 1995-2015 Xilinx, Inc.  All rights reserved.
+// Created on Monday November 23, 2015 - 01:17:27 pm, from:
+//
+//     Map file     - /home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.srcs/sources_1/bd/uc_GPIO/uc_GPIO.bmm
+//     Data file(s) - /home/Dados/Seafile/Aulas/Pos/Logica-Programavel/Aulas/Exemplos/uc/uc/uc.srcs/sources_1/bd/uc_GPIO/ipshared/xilinx.com/microblaze_v9_5/data/mb_bootloop_le.elf
+//
+// Address space 'u1_uc_GPIO_i_microblaze_0.u1_uc_GPIO_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000
